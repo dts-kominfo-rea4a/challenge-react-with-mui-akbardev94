@@ -20,7 +20,7 @@ const App = () => {
 
   // Buatlah handler untuk menambahkan kontak baru yang akan dikirim ke ContactForm
   const addContact = (v) => {
-    console.log('isi', v)
+    console.log('value', v)
     setContact([...contacts, v])
   }
 
